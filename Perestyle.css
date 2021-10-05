@@ -1,0 +1,186 @@
+h1 {
+  font-size: 60 px;
+  color: #5A65BF;
+}
+/* Стиль первого заголовка */
+h2 {
+  font-size: 50 px;
+color: #000000;
+}
+/* Стиль воторого заголовка */
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+/* Задать шрифт всему сайту */
+h1, h2, h3, p, ul, li, blockquote, div, img, hr {
+  width: 700px;
+  margin: 0 auto;
+}
+/* Выравнивание блока посередине */
+h1, h2, h3 {
+  font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
+}
+/* Обозначение семейства шрифта */
+h1 {
+  margin-top: 67px;
+  font-size: 38px;
+  line-height: 45px;
+}
+/* Размеры и отступ заголовка */
+h1+p {
+  margin-top: 8px;
+  font-family: 'PT Sans Caption',
+  sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+}
+/* Появление двойного отступа */
+h1 + p + p {
+  margin-top: 30px;
+}
+/* 2 отступа и маргин отступ */
+a {
+  color: inherit;
+}
+/* Убирание синего цвета для ссылок\Слово-необходимо наследовать значение свойства у родительского элемента. Естественно, результат будет заметен только в том случае, если у родителя указанное свойство установлено.*/
+h1, h2, h3, p, ul, blockquote, div, img, hr {
+  width: 700px;
+  margin: 0 auto;
+}
+/*Выравнивание элементов по центру*/
+h2 {
+  margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, .8);
+}
+h2 + p,
+h2 + blockquote {
+  margin-top: 7px;
+}
+/* Выделение длинной цитаты + маргин отступ*/
+h3 {
+  margin-top: 36px;
+  font-size: 28px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, .8);
+}
+/* стиль для заголовков h3*/
+p, blockquote, li {
+  margin-top: 29px;
+  font-size: 20px;
+  line-height: 34px;
+}
+/* Стиль для абзацев, цитат, списков */
+blockquote {
+  font-style: italic;
+}
+/* Курсив для цитат всех */
+img {
+  width: 300px;
+  margin: 30px auto 0;
+  padding: 0;
+}
+/* Стиль для картинки: Отступ, размер, поля вокруг */
+img + h2 {
+  margin-top: 79px;
+}
+/* эффект накладывается на объект после картинки */
+img + p,
+img + blockquote,
+img + ul {
+  margin-top: 77px;
+}
+/* Отступы для разных блоков */
+h2 + img {
+  margin-top: 82px;
+}
+/* Наложение отступа после заголовка h2 перед картинкой */
+/* ПРОПИСЫВАНИЕ КОДА ДЛЯ СОДЕРЖАНИЯ NAW*/
+nav {
+  background: #F9F9F9; /* цвет фона */
+  width: 300px; /* Ширина блока 300 */
+  /* position: fixed;*/ /* Позиция привзана к точке на экране и не меняет свою позицию */
+  top: 10px; /* отступ сверху */
+  left: 10px; /* отступ слева */
+  padding: 10px; /*  внутренний отступ */
+  box-sizing: border-box; /* Говорит браузеру учитывать любые границы и внутренние отступы для высоты и ширины эл */
+  opacity: .1; /* Полупрозрачность элемента */
+  transition: all .5s ease; /* Появление */
+  overflow: auto;
+}
+/* Скрыть оглавление */
+nav:hover {
+  opacity: 1;
+  transition: all .1s ease;
+} /* плавное появление при наведении */
+nav p{
+margin: 0; /* внешний отступ отсутсвует */
+font-weight: bold; /* текст выделен жирностью  */
+font-size: 14px!important; /* размер шрифта */
+}
+/* Стиль для абзацев */
+nav a{ /* прописиваем для ссылки */
+  text-decoration: none;
+  font-size: 12px!important;
+}
+nav ul{
+  list-style-type: none;
+  width: 100%;
+}
+/* Стиль для тегов ul */
+nav li{
+  margin: 0px 0;
+  line-height: 20px;
+}
+/* Стиль для тегов li */
+.nav {
+  width: 300px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+  display: block;
+}
+/* Прописание стиля для всей таблицы, четкое расположение элементов, прокручивание списка вниз */
+.nav a{
+  text-decoration: none;
+}
+/* Стиль для ссылок *отсутствует* */
+/* ПРОПИСЫВАНИЕ КОДА ДЛЯ СОДЕРЖАНИЯ NAW ЗАКОНЧЕНО */
+.sidebar{
+  padding-left: 0px;
+}
+/* Стиль для содержания */
+.a{
+  color: inherit;
+}
+/* Общий стиль для ссылок */
+/* Прописывание стиля для меню бара */
+.menubar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding-top: 20px;
+}
+/* Центрирование элементов меню бара */
+.menubar a{
+  height: 20px;
+  text-decoration: none;
+  color: #aaa;
+}
+/* Стиль меню бара для ссылок в меню баре */
+.menubar img{
+  height: 30%;
+  width: auto;
+}
+/* Стиль для картинки в меню баре, уменьшение размера */
+.imglogo{
+  width: 90%;
+}
+/* Уменьшение прозрачности для лого */
